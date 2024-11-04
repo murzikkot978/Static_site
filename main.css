@@ -256,13 +256,13 @@ mark {
 }
 
 .number {
-         width: 83px;
-         height: 72px;
-         font-weight: 400;
-         font-size: 64px;
-         line-height: 72px;
-         -webkit-text-stroke: 1px #020E35;
-         -webkit-text-fill-color: white;
+          width: 83px;
+          height: 72px;
+          font-weight: 400;
+          font-size: 64px;
+          line-height: 72px;
+          -webkit-text-stroke: 1px #020E35;
+          -webkit-text-fill-color: white;
 }
 
 .text-block {
@@ -286,4 +286,69 @@ mark {
           font-weight: 400;
           font-size: 18px;
           line-height: 23px;
+}
+
+/*We craft experiences*/
+.craft-experience {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 870px;
+          padding: 100px 150px;
+
+}
+
+.headings {
+          display: flex;
+          flex-direction: column;
+          width: 664px;
+          height: 503px;
+          gap: 60px;
+}
+
+.we-craft {
+          display: flex;
+          width: 664px;
+          height: 216px;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 72px;
+}
+
+a::before {
+          content: "";
+          position: absolute;
+          width: 406px;
+          height: 34px;
+          z-index: -1;
+          background: #FF5678;
+          top: 3055.56px;
+}
+
+.text-for-we-craft {
+          display: flex;
+          width: 481px;
+          height: 96px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+}
+
+.btn-learn-more {
+          display: flex;
+          width: 185px;
+          height: 71px;
+          justify-content: center;
+          align-items: center;
+          background-color: #020E35;
+          color: #FFFFFF;
+          font-weight: 700;
+          font-weight: 18px;
+          line-height: 23px;
+}
+
+.photo-cafe {
+          width: 780px;
+          height: 670px;
+          display: flex;
 }
