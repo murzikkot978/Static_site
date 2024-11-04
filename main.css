@@ -207,3 +207,83 @@ mark {
           font-size: 18px;
           line-height: 23px;
 }
+
+/*Things We Enjoy*/
+.things-part3 {
+          display: flex;
+          padding: 100px 150px;
+          justify-content: space-between;
+          align-items: center;
+}
+
+.sercle-rose {
+          position: absolute;
+          top: 1987.05px;
+          left: 0%;
+          z-index: -1;
+}
+
+.left-side {
+          display: flex;
+          flex-direction: column;
+          width: 545px;
+          height: 592px;
+          gap: 120px;
+}
+
+.things-we-enjoy {
+          width: 457px;
+          height: 62px;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 62px;
+          background: linear-gradient(to bottom, transparent 50%, #FF5678 0);
+}
+
+.bullet-point {
+          display: flex;
+          flex-direction: column;
+          width: 545px;
+          height: 410px;
+          gap: 40px;
+}
+
+.points {
+          display: flex;
+          width: 544px;
+          height: 110px;
+          gap: 40px;
+}
+
+.number {
+         width: 83px;
+         height: 72px;
+         font-weight: 400;
+         font-size: 64px;
+         line-height: 72px;
+         -webkit-text-stroke: 1px #020E35;
+         -webkit-text-fill-color: white;
+}
+
+.text-block {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 8px;
+}
+
+.titul {
+          width: 431px;
+          height: 36px;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 36px;
+}
+
+.text-for-things-we-enjoy {
+          width: 421px;
+          height: 46px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+}
