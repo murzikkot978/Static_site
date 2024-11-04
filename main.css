@@ -153,8 +153,19 @@ mark {
           font-weight: 700;
           font-size: 54px;
           line-height: 62px;
+          position: relative;
+          display: inline-block;
+}
 
-          background: linear-gradient(to bottom, transparent 96.5px, #FF5678 0);
+.headline::after {
+          content: "";
+          position: absolute;
+          top: 97px;
+          left: 5px;
+          width: 423px;
+          height: 29px;
+          background-color: #FF5678;
+          z-index: -1;
 }
 
 .but-i-must {
@@ -237,7 +248,19 @@ mark {
           font-weight: 700;
           font-size: 54px;
           line-height: 62px;
-          background: linear-gradient(to bottom, transparent 50%, #FF5678 0);
+          position: relative;
+          display: inline-block;
+}
+
+.things-we-enjoy::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: 0;
+          width: 468px;
+          height: 34px;
+          background-color: #FF5678;
+          z-index: -1;
 }
 
 .bullet-point {
@@ -313,16 +336,19 @@ mark {
           font-weight: 700;
           font-size: 54px;
           line-height: 72px;
+          position: relative;
+          display: inline-block;
 }
 
-a::before {
+.we-craft::after {
           content: "";
           position: absolute;
+          top: 181px;
+          left: 0;
           width: 406px;
-          height: 34px;
+          height: 36px;
+          background-color: #FF5678;
           z-index: -1;
-          background: #FF5678;
-          top: 3055.56px;
 }
 
 .text-for-we-craft {
@@ -382,7 +408,19 @@ a::before {
           font-weight: 700;
           font-size: 54px;
           line-height: 72px;
-          background: linear-gradient(to bottom, transparent 50%, #FF5678 0);
+          position: relative;
+          display: inline-block;
+}
+
+.meet-the-team::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: 0;
+          width: 416px;
+          height: 30px;
+          background-color: #FF5678;
+          z-index: -1;
 }
 
 .block {
@@ -438,4 +476,104 @@ a::before {
           justify-content: center;
           align-items: center;
           gap: 24px;
+}
+
+/*Some of our previous work*/
+
+
+.our-work {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 60px;
+          padding: 100px 150px;
+}
+
+.previous-work {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 72px;
+          position: relative;
+          display: inline-block;
+}
+
+.previous-work::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: 338px;
+          width: 416px;
+          height: 30px;
+          background-color: #FF5678;
+          z-index: -1;
+}
+
+.slide-menu {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 36px;
+}
+
+.all {
+          color: #FFFFFF;
+          background: #FF5678;
+}
+
+.image-block>div {
+          background: #FFEEF6;
+}
+
+.image-block {
+          display: grid;
+          grid-gap: 32px;
+          grid-template-columns: 519px 518px 519px;
+          grid-template-rows: 396.5px 243.5px 121px 519px;
+}
+
+.image-left-top {
+          grid-column: 1 / 2;
+          grid-row: 1/ 3;
+}
+
+.image-left-down {
+          grid-column: 1 / 2;
+          grid-row: 3 / 5;
+}
+
+.image-right-left-top {
+          grid-column: 2 / 3;
+          grid-row: 1 / 4;
+}
+
+.image-right-top {
+          grid-column: 3 / 4;
+          grid-row: 1 / 2;
+}
+
+.image-right-down {
+          grid-column: 3 / 4;
+          grid-row: 2 / 4;
+}
+
+.image-down {
+          grid-column: 2 / 4;
+          grid-row: 4 / 5;
+}
+
+.see-more {
+          padding: 24px 60px;
+          gap: 4px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 23px;
+          color: #FFFFFF;
+          background: #020E35;
 }
