@@ -778,6 +778,19 @@ mark {
           font-weight: 700;
           font-size: 54px;
           line-height: 72px;
+          position: relative;
+          display: inline-block;
+}
+
+.need-help::after {
+          content: "";
+          position: absolute;
+          top: 109px;
+          left: 213px;
+          width: 304px;
+          height: 27px;
+          background-color: #FF5678;
+          z-index: -1;
 }
 
 .CONTACT {
@@ -839,4 +852,46 @@ input {
           font-weight: 400;
           font-size: 18px;
           line-height: 23px;
+}
+
+/*join our newsletters*/
+.newsletter {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 100px 150px;
+}
+
+.block-text {
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+}
+
+.join-our-newsletters {
+          display: flex;
+          width: 609px;
+          height: 144px;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 72px;
+          position: relative;
+          display: inline-block;
+}
+
+.join-our-newsletters::after {
+          content: "";
+          position: absolute;
+          top: 109px;
+          left: 153px;
+          width: 435px;
+          height: 35px;
+          background-color: #FF5678;
+          z-index: -1;
+}
+
+.cards {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
 }
