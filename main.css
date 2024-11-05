@@ -127,6 +127,9 @@ mark {
 }
 
 .coffe-bar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           width: 592px;
           height: 508px;
 }
@@ -576,4 +579,174 @@ mark {
           line-height: 23px;
           color: #FFFFFF;
           background: #020E35;
+}
+
+/*testimonial*/
+.testimanial {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 100px 150px;
+          gap: 100px;
+          height: 1080px;
+}
+
+.heading1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+}
+
+.testimanial-text {
+          display: flex;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 72px;
+}
+
+.over-18 {
+          display: flex;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 36px;
+}
+
+.frame {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 32px;
+}
+
+.frame1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 46px;
+          width: 412px;
+          height: 555px;
+          border: 1px solid #949494;
+          border-radius: 150px;
+}
+
+.frame2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 46px;
+          width: 460px;
+          height: 672px;
+          border: 1px solid #949494;
+          border-radius: 150px;
+}
+
+.frame-text {
+          display: flex;
+          justify-content: ;
+          align-items: center;
+          flex-direction: column;
+          gap: 24px;
+          width: 253px;
+          height: 340px;
+}
+
+.frame-text1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 24px;
+          width: 380px;
+          height: 317px;
+}
+
+.frame-photo {
+          display: flex;
+          width: 150px;
+          height: 150px;
+}
+
+.stars {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 16px;
+}
+
+.star {
+          display: flex;
+          width: 29px;
+          height: 27px;
+}
+
+.my-experience {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 253px;
+          height: 115px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+}
+
+.my-experience1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 380px;
+          height: 92px;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+}
+
+.frame-names {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 6px;
+          height: 49;
+}
+
+.frame-name1 {
+          width: 135px;
+          height: 23px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 400;
+          font-size: 18;
+}
+
+.frame-name2 {
+          width: 131px;
+          height: 20px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+}
+
+.icon-arrows {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 1620px;
+          height: 80px;
+}
+
+.arrows {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 80px;
+          height: 80px;
 }
