@@ -15,9 +15,7 @@ p {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 0 150px;
-          padding-top: 8px;
-          padding-bottom: 8px;
+          padding: 8px 150px;
           box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
 
 }
@@ -647,7 +645,7 @@ mark {
 
 .frame-text {
           display: flex;
-          justify-content: ;
+          justify-content: center;
           align-items: center;
           flex-direction: column;
           gap: 24px;
@@ -749,4 +747,96 @@ mark {
           align-items: center;
           width: 80px;
           height: 80px;
+}
+
+/*need help marking coffe*/
+.contact {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 100px 150px;
+          height: 904px;
+}
+
+.contact-ilustration {
+          width: 780px;
+          height: 670px;
+          padding: 4px 0px 4px 4px;
+          gap: 4px;
+}
+
+.contact-list {
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+}
+
+.need-help {
+          display: flex;
+          width: 527px;
+          height: 144px;
+          font-weight: 700;
+          font-size: 54px;
+          line-height: 72px;
+}
+
+.CONTACT {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+}
+
+.name-mail-message-card {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+}
+
+.send {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 205px;
+          height: 71px;
+          gap: 4px;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 23px;
+          color: #FFFFFF;
+          background-color: #020E35;
+          box-shadow: 0px 20px 40px 5px #00000040;
+}
+
+label {
+          display: block;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+}
+
+input,
+input {
+          width: 656px;
+          height: 70px;
+          padding: 4px 0px 0px 0px;
+          gap: 4px;
+          border: 1px solid #020E35;
+          border-radius: 10px;
+          background-color: #FFEEF6;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+}
+
+.message-plate {
+          width: 656px;
+          height: 200px;
+          padding: 4px 0px 0px 0px;
+          gap: 4px;
+          border: 1px solid #020E35;
+          border-radius: 10px;
+          background-color: #FFEEF6;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
 }
